@@ -22,6 +22,8 @@ const displayPhoto = ()=>{
   })
 }
 
+// Getting photos from API
+
 async function getPhoto(API_URL){
   try{
     const Response = await fetch(API_URL);
